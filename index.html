@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="stle.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" /><br />
+      </div>
+
+      <label for="theme">Tēma</label>
+      <select id="theme">
+        <option value="tech_support">tehniskais atbalsts</option>
+        <option value="offers">piedāvājumi</option>
+        <option value="general">vispārīgi jautājumi</option>
+      </select>
+      <br />
+
+      <input type="checkbox" id="agreement" />
+      <label for="agreement">vai piekrist saņemt jaunumus</label> <br />
+      <input type="submit" value="sūtīt" />
+    </form>
+  </body>
 </html>

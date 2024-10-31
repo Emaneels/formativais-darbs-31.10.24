@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box
+
+}
+
+
+
+
+form {
+    width: 600px;
+    margin: auto;
+    border: 1px solid black
+}
+
+input, select {
+    display: block;
+    size: 100px;
+    
+    
+
+}
